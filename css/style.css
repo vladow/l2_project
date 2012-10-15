@@ -1,0 +1,48 @@
+/* 
+    Document   : style
+    Created on : 15.10.2012, 10:10:23
+    Author     : Влад
+    Description:
+        Purpose of the stylesheet follows.
+*/
+*{
+    font-family: verdana, arial, sans-serif;
+}
+#wrapper{
+    /*width: 1080px;*/
+    margin: 0 auto;
+    background-image: url(../img/bg.gif);
+    background-repeat: no-repeat; 
+}
+/* шапка чтраницы */
+#header{
+    height: 700px;
+    background-image: url(../img/head.gif);
+    background-repeat: no-repeat;
+}
+#l_sidebar{
+    width: 154px;
+    position: relative;
+    top: -180px;
+    left: 280px;
+}
+.common_menu li a{
+    font-size: 14px;
+    color:grey;
+
+    /*text-decoration: none;*/
+    /*text-transform: uppercase;*/
+}
+.common_menu li{
+    list-style-type: none;  
+    /*    display: block;
+        background-color: transparent;
+        background-repeat: no-repeat;
+        background-image: url(../img/l_nav_border.gif);*/
+    height: 25px;
+    text-align: center;
+}
+#footer{
+    height: 200px;
+    background-image: url(../img/foot.gif);
+}
